@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://msoceo.pages.dev/:path*",
-      "permanent": true
-    }
-  ]
-}

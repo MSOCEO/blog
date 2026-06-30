@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "mkdir -p out && cp -r public/* out/"
   publish = "out"
 
 # 全站 301 指向 Cloudflare Pages
