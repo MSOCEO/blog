@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[3650,["619","static/chunks/619-ba102abea3e3d0e4.js","177","static/chunks/app/layout-49faf9187084a8a5.js"],"Header"]
+3:I[9766,[],""]
+4:I[8924,[],""]
+5:I[2619,["619","static/chunks/619-ba102abea3e3d0e4.js","530","static/chunks/app/posts/page-7892b2b555b07076.js"],""]
+7:I[4431,[],"OutletBoundary"]
+9:I[5278,[],"AsyncMetadataOutlet"]
+b:I[4431,[],"ViewportBoundary"]
+d:I[4431,[],"MetadataBoundary"]
+e:"$Sreact.suspense"
+10:I[7150,[],""]
+:HL["/blog/_next/static/css/fc5d3ec1a6bc567e.css","style"]
+0:{"P":null,"b":"B6pN2zr8lk2oS9hHLY7TE","p":"/blog","c":["","posts","markdown-guide",""],"i":false,"f":[[["",{"children":["posts",{"children":[["slug","markdown-guide","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/css/fc5d3ec1a6bc567e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"dark","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"dns-prefetch","href":"//fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","title":"叙溯 Xusu","href":"/blog/rss.xml"}]]}],["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"style":{"maxWidth":"var(--max-width-wide)","margin":"0 auto","padding":"var(--space-2xl) var(--space-xl)","minHeight":"calc(100vh - var(--header-height))"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen flex flex-col items-center justify-center px-6","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-8xl font-bold mb-4","style":{"color":"var(--color-accent)"},"children":"404"}],["$","p",null,{"className":"text-lg mb-8","style":{"color":"var(--text-secondary)"},"children":"页面不存在或已移除"}],["$","$L5",null,{"href":"/","style":{"background":"var(--color-accent)","color":"white","padding":"12px 28px","borderRadius":"var(--radius-button)","fontWeight":600},"children":"返回首页"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"style":{"borderTop":"1px solid var(--border-default)","padding":"var(--space-2xl) var(--space-xl)","textAlign":"center","color":"var(--text-muted)","fontSize":"var(--text-xs)"},"children":[["$","p",null,{"style":{"margin":0},"children":["© ",2026," ","叙溯 Xusu"," · Powered by"," ",["$","a",null,{"href":"https://nextjs.org","target":"_blank","rel":"noopener noreferrer","style":{"color":"var(--color-accent)"},"children":"Next.js"}]," ","&"," ",["$","a",null,{"href":"https://github.com/MSOCEO/xusu","target":"_blank","rel":"noopener noreferrer","style":{"color":"var(--color-accent)"},"children":"Xusu"}]]}],["$","p",null,{"style":{"margin":"8px 0 0 0"},"children":["$","a",null,{"href":"https://github.com/MSOCEO","target":"_blank","rel":"noopener noreferrer","style":{"color":"var(--text-muted)"},"children":"GitHub"}]}]]}]]}]]}]]}],{"children":["posts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","markdown-guide","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+12:I[1097,["858","static/chunks/app/posts/%5Bslug%5D/page-a0697cb8b2f2632d.js"],"Toc"]
+11:T59f,<h2 id="gfm-表格"><a class="heading-anchor" href="#gfm-表格">GFM 表格</a></h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>支持</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标题</td>
+<td>✅</td>
+<td>h1-h6</td>
+</tr>
+<tr>
+<td>表格</td>
+<td>✅</td>
+<td>GFM 扩展</td>
+</tr>
+<tr>
+<td>代码块</td>
+<td>✅</td>
+<td>带语言高亮</td>
+</tr>
+<tr>
+<td>任务列表</td>
+<td>✅</td>
+<td><code>- [ ]</code> / <code>- [x]</code></td>
+</tr>
+<tr>
+<td>删除线</td>
+<td>✅</td>
+<td><code>~~text~~</code></td>
+</tr>
+<tr>
+<td>脚注</td>
+<td>❌</td>
+<td>暂不支持</td>
+</tr>
+</tbody>
+</table>
+<h2 id="任务列表"><a class="heading-anchor" href="#任务列表">任务列表</a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> 完成架构设计</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> 完成 M0 项目初始化</li>
+<li class="task-list-item"><input type="checkbox" disabled> 完成 M1 核心引擎</li>
+<li class="task-list-item"><input type="checkbox" disabled> 完成 M2 极光主题</li>
+</ul>
+<h2 id="其他格式"><a class="heading-anchor" href="#其他格式">其他格式</a></h2>
+<p><strong>粗体文字</strong> 和 <em>斜体文字</em> 以及 <del>删除线</del>。</p>
+<p><a href="/blog/">链接到首页</a></p>
+<p><img src="https://via.placeholder.com/800x400/080810/E91E8C?text=Aurora+Theme" alt="图片占位"></p>13:T59f,<h2 id="gfm-表格"><a class="heading-anchor" href="#gfm-表格">GFM 表格</a></h2>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>支持</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标题</td>
+<td>✅</td>
+<td>h1-h6</td>
+</tr>
+<tr>
+<td>表格</td>
+<td>✅</td>
+<td>GFM 扩展</td>
+</tr>
+<tr>
+<td>代码块</td>
+<td>✅</td>
+<td>带语言高亮</td>
+</tr>
+<tr>
+<td>任务列表</td>
+<td>✅</td>
+<td><code>- [ ]</code> / <code>- [x]</code></td>
+</tr>
+<tr>
+<td>删除线</td>
+<td>✅</td>
+<td><code>~~text~~</code></td>
+</tr>
+<tr>
+<td>脚注</td>
+<td>❌</td>
+<td>暂不支持</td>
+</tr>
+</tbody>
+</table>
+<h2 id="任务列表"><a class="heading-anchor" href="#任务列表">任务列表</a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> 完成架构设计</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> 完成 M0 项目初始化</li>
+<li class="task-list-item"><input type="checkbox" disabled> 完成 M1 核心引擎</li>
+<li class="task-list-item"><input type="checkbox" disabled> 完成 M2 极光主题</li>
+</ul>
+<h2 id="其他格式"><a class="heading-anchor" href="#其他格式">其他格式</a></h2>
+<p><strong>粗体文字</strong> 和 <em>斜体文字</em> 以及 <del>删除线</del>。</p>
+<p><a href="/blog/">链接到首页</a></p>
+<p><img src="https://via.placeholder.com/800x400/080810/E91E8C?text=Aurora+Theme" alt="图片占位"></p>6:["$","div",null,{"style":{"display":"grid","gridTemplateColumns":"1fr 220px","gap":"var(--space-2xl)","alignItems":"start"},"children":[["$","article",null,{"children":["$","div",null,{"className":"theme-card hover:transform-none hover:shadow-none","style":{"padding":"var(--space-xl)"},"children":["$undefined",["$","h1",null,{"style":{"fontSize":"var(--text-3xl)","fontWeight":700,"lineHeight":1.3,"margin":"0 0 var(--space-md) 0","color":"var(--text-primary)"},"children":"Markdown 写作指南"}],["$","div",null,{"style":{"marginBottom":"var(--space-xl)"},"children":["$","div",null,{"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"var(--space-md)","marginBottom":"var(--space-sm)","flexWrap":"wrap"},"children":[["$","span",null,{"style":{"color":"var(--color-accent)","fontSize":"var(--text-xs)","fontWeight":600},"children":"技术"}],["$","time",null,{"style":{"color":"var(--text-muted)","fontSize":"var(--text-xs)"},"dateTime":"2026-06-27T16:00:00.000Z","children":"2026 年 6 月 28 日"}],["$","span",null,{"style":{"color":"var(--text-muted)","fontSize":"var(--text-xs)"},"children":"1 min"}]]}],false,["$","div",null,{"style":{"display":"flex","gap":"var(--space-xs)","flexWrap":"wrap","marginTop":"var(--space-sm)"},"children":[["$","span","Markdown",{"className":"theme-tag ","style":{"background":"#E91E8C22","color":"#E91E8C"},"children":"Markdown"}],["$","span","教程",{"className":"theme-tag ","style":{"background":"#4ADE8022","color":"#4ADE80"},"children":"教程"}]]}]]}]}],["$","p",null,{"style":{"color":"var(--text-secondary)","fontSize":"var(--text-lg)","lineHeight":1.6,"marginBottom":"var(--space-xl)","padding":"var(--space-lg)","background":"var(--bg-subtle)","borderRadius":"var(--radius-md)","borderLeft":"3px solid var(--color-accent)"},"children":"Xusu 支持的 Markdown 扩展语法快速参考。"}],["$","div",null,{"className":"theme-prose","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]}],["$","aside",null,{"className":"hidden lg:block","children":["$","$L12",null,{"html":"$13"}]}]]}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+14:I[622,[],"IconMark"]
+a:{"metadata":[["$","title","0",{"children":"Markdown 写作指南 | 叙溯 Xusu"}],["$","meta","1",{"name":"description","content":"Xusu 支持的 Markdown 扩展语法快速参考。"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"alternate","type":"application/rss+xml","href":"https://msoceo.github.io/blog/rss.xml"}],["$","meta","5",{"property":"og:title","content":"Markdown 写作指南"}],["$","meta","6",{"property":"og:description","content":"Xusu 支持的 Markdown 扩展语法快速参考。"}],["$","meta","7",{"property":"og:url","content":"https://msoceo.github.io/blog/posts/markdown-guide/"}],["$","meta","8",{"property":"og:image","content":"https://msoceo.github.io/blog/og-default.svg"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Markdown 写作指南"}],["$","meta","12",{"property":"og:type","content":"article"}],["$","meta","13",{"property":"article:published_time","content":"2026-06-27T16:00:00.000Z"}],["$","meta","14",{"property":"article:author","content":"MSOCEO"}],["$","meta","15",{"property":"article:tag","content":"Markdown"}],["$","meta","16",{"property":"article:tag","content":"教程"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"Markdown 写作指南"}],["$","meta","19",{"name":"twitter:description","content":"Xusu 支持的 Markdown 扩展语法快速参考。"}],["$","meta","20",{"name":"twitter:image","content":"https://msoceo.github.io/blog/og-default.svg"}],["$","link","21",{"rel":"icon","href":"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>","type":"image/svg+xml"}],["$","$L14","22",{}]],"error":null,"digest":"$undefined"}
+f:"$a:metadata"
