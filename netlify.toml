@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# 全站 301 指向 Cloudflare Pages
+[[redirects]]
+  from = "/*"
+  to = "https://msoceo.pages.dev/:splat"
+  status = 301
+  force = true
